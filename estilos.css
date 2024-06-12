@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ronaldo{
+    height: 100vh;
+    background-image: url(bitcoin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.messi{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+.nombre{
+    font-size: 55px;
+    color: #2355a0;
+}
+
+.p1{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(44, 19, 133);
+}
+
+.boton_index{
+    margin-top: 10px;
+    background-color:rgb(187, 48, 48);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.redes_sociales {
+    background-color: rgb(118, 33, 158);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconos {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.menu_blog {
+    display: flex;
+    align-items: center;
+    background-color: #4a195e;
+    padding: 10px;
+}
+
+.menu_blog ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    flex: 1;
+}
+
+.menu_blog li {
+    margin: 0 15px;
+}
+
+.menu_blog a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.main {
+    padding: 20px;
+}
+
+.proyectos {
+    padding: 20px;
+    text-align: center;
+}
+
+.proyecto {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.proyecto h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.proyecto p {
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.proyecto button {
+    background-color:darkviolet ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
